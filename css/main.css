@@ -7,6 +7,7 @@
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body{
@@ -21,20 +22,20 @@ body{
     display: flex;
     position: fixed;
     top: 0;
+    box-shadow: 5px 5px 5px #7a7a7a; 
 }
 
 .wrapper .top_navbar .logo{
     width: 250px;
     height: 100%;
     background: rgb(59, 234, 117);
-    border-bottom: 1px solid rgb(59, 234, 117);
     color:#5343c7;
 }
 
 .wrapper .top_navbar .logo a{
     display: block;
     text-align: center;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family:  sans-serif;
     font-size: 20px;
     color: #5343c7;
     padding: 20px 0;
@@ -86,6 +87,7 @@ body{
     color: #5343c7;
     margin: 0 5px;
     cursor: pointer;
+    box-shadow: 5px 5px #4336a0; 
 }
 
 
@@ -194,7 +196,6 @@ body{
 .main_body .container .item_wrap .item center{
     margin-top: 50px;
 }
-
 /* after adding active class */
 .wrapper.active .sidebar_menu{
     width: 100px;
@@ -202,10 +203,12 @@ body{
 
 .wrapper.active .hamburger .fa-long-arrow-alt-right{
     display: block;
+    color:#5343c7;
 }
 
 .wrapper.active .hamburger .fa-long-arrow-alt-left{
     display: none;
+    color:#5343c7;
 }
 
 .wrapper.active .sidebar_menu ul li a .list{
