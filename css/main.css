@@ -27,7 +27,8 @@ body{
     width: 250px;
     height: 100%;
     background: rgb(59, 234, 117);
-    border-bottom: 1px solid #22119d;
+    border-bottom: 1px solid rgb(59, 234, 117);
+    color:#5343c7;
 }
 
 .wrapper .top_navbar .logo a{
@@ -35,7 +36,7 @@ body{
     text-align: center;
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #5343c7;
     padding: 20px 0;
 }
 
@@ -52,7 +53,7 @@ body{
 .wrapper .top_navbar .top_menu .home_link a{
     display: block;
     background: rgb(59, 234, 117);
-    color: #fff;
+    color: #5343c7;
     padding: 8px 15px;
     border-radius: 3px;
 }
@@ -63,7 +64,7 @@ body{
     padding: 8px 15px;
     border-radius: 3px;
     background: rgb(59, 234, 117);
-    color: #fff;
+    color: #5343c7;
     margin: 0 5px;
     cursor: pointer;
 }
@@ -71,6 +72,7 @@ body{
 .wrapper .top_navbar .right_info .icon_wrap:hover,
 .wrapper .top_navbar .right_info .dropdown:hover{
     background: #5343c7;
+    color:#fff;
 }
 
 .wrapper .top_navbar .right_info{
@@ -81,7 +83,7 @@ body{
     padding: 8px 15px;
     border-radius: 3px;
     background: rgb(59, 234, 117);
-    color: #fff;
+    color: #5343c7;
     margin: 0 5px;
     cursor: pointer;
 }
@@ -103,7 +105,7 @@ body{
 }
 
 .main_body .sidebar_menu ul li a{
-    color: rgb(72, 158, 84);
+    color: #5343c7;
     font-size: 18px;
     padding: 20px 35px;
     display: block;
@@ -127,8 +129,8 @@ body{
 }
 
 .main_body .sidebar_menu ul li a.active{
-    background: rgb(37, 89, 43);
-    color: #fff;
+    background: #4336a0;
+    color: #ffffff;
 }
 
 .main_body .sidebar_menu .hamburger{
@@ -148,6 +150,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    color:#5343c7;
 }
 
 .main_body .sidebar_menu .inner_hamburger{
