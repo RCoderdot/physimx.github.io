@@ -16,3 +16,8 @@ body {
     height: 600px;
     margin: 1.8em 1em;
 }
+
+.menu {
+    color: #673ab7;
+    font-size: large;
+}

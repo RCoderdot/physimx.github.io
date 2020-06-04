@@ -14,17 +14,14 @@
 
 <div class="wah"> <!-- We could change this class to "container" so it adds a margin to the whole screen -->
     <nav>
-        <div class="nav-wrapper white z-depth-2">
+        <div class="nav-wrapper  green accent-1 z-depth-2">
             <div class="row">
                 <div class="col s10 offset-s2 m10 offset-m2 l10 offset-l2 xl9 offset-xl3">
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">home</i>Home</a></li>
-                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">3d_rotation</i>Physics</a></li>
-                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">dialpad</i>Mathematics</a></li>
-                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">vpn_key</i>Log In</a></li>
-                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">person_add</i>Sign Up</a></li>
-                    </ul>
+                    <a href="#" data-target="sidenav-1" class="left sidenav-trigger hide-on-medium-and-up deep-purple-text"><i class="material-icons">menu</i></a>
+                    <a href="#" data-target="sidenav-2" class="right sidenav-trigger hide-on-medium-and-up deep-purple-text"><i class="material-icons">more_vert</i></a>
+                    <div class="brand-logo center deep-purple-text">PhySimX</div>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">home</i>Home</a></li>
                         <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">notifications</i></a></li>
                         <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">settings</i></a></li>
                     </ul>
@@ -32,10 +29,12 @@
             </div>
         </div>
     </nav>
-<main>
-    <div id="slide-out" class="sidenav sidenav-fixed green accent-3">
-        <span href="#" class="logo">PhySimX</span>
+
+    <div id="sidenav-1" class="sidenav sidenav-fixed green accent-3">
+        <span href="#" class="logo center-align">Simulations</span>
+
         <ul>
+            <li><div class="divider"></div></li>
             <li><a class="deep-purple darken-1 white-text hoverable" href="#"><i class="material-icons left white-text">3d_rotation</i>Physics Home</a></li>
             <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">toys</i>Pendulum</a></li>
             <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">perm_contact_calendar</i>Contact</a></li>
@@ -44,20 +43,34 @@
             <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">map</i>Maps</a></li>
         </ul>
     </div>
-    <div class="row">
-        <div class="col s10 offset-s2 m10 offset-m2 l10 offset-l2 xl10 offset-xl2">
-            <div class="sheet white">
-            </div>
-        </div>
+    <div id="sidenav-2" class="sidenav green accent-3">
+        <span href="#" class="logo center-align">Menu</span>
+
+        <ul>
+            <li><div class="divider black"></div></li>
+            <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">home</i>Home</a></li>
+            <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">notifications</i>Notifications</a></li>
+            <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">settings</i>Settings</a></li>
+        </ul>
     </div>
 
-</main>
+
 </div>
+<main>
+
+</main>
 
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/materialize.min.js"></script>
 <script src="scripts/home.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('#sidenav-1').sidenav({ edge: 'left' });
+        $('#sidenav-2').sidenav({ edge: 'right' });
+    });
+</script>
 
 </body>
 </html>
