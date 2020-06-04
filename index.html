@@ -1,137 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="icon" href="images/favicon.png" type="image/png"/>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 </head>
 <body>
 
-
-<div class="wrapper">
-
-    <div class="top_navbar">		
-        <div class="logo">
-            <a href="index.html">PhySimX</a>
-        </div>
-        <div class="top_menu">
-            <div class="left_info">
-                <div class="home_link hoverable">
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-home"></i></span>
-                        <span>Home</span>
-                    </a>
-                </div>
-                <div class="home_link hoverable">
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-atom"></i></span>
-                        <span>Physics</span>
-                    </a>
-                </div>
-                <div class="home_link hoverable">
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-calculator"></i></span>
-                        <span>Mathematics</span>
-                    </a>
-                </div>
-                <div class="home_link hoverable">
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-circle"></i></span>
-                        <span>Log In</span>
-                    </a>
-                </div>
-                <div class="home_link hoverable">
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-plus"></i></span>
-                        <span>Sign Up</span>
-                    </a>
+<div class="wah"> <!-- We could change this class to "container" so it adds a margin to the whole screen -->
+    <nav>
+        <div class="nav-wrapper white z-depth-2">
+            <div class="row">
+                <div class="col s10 offset-s2 m10 offset-m2 l10 offset-l2 xl10 offset-xl2">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">home</i>Home</a></li>
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">3d_rotation</i>Physics</a></li>
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">dialpad</i>Mathematics</a></li>
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">vpn_key</i>Log In</a></li>
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons left">person_add</i>Sign Up</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">notifications</i></a></li>
+                        <li><a class="btn waves-effect waves-darker green accent-3 deep-purple-text hoverable" href="#"><i class="material-icons">settings</i></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="right_info ">
-                <div class="icon_wrap hoverable">
-                    <div class="icon">
-                        <i class="fas fa-bell"></i>
-                    </div>
-                </div>
-                <div class="icon_wrap hoverable">
-                    <div class="icon">
-                        <i class="fas fa-cog"></i>
-                    </div>
-                </div>
+        </div>
+    </nav>
+<main>
+    <div id="slide-out" class="sidenav sidenav-fixed green accent-3">
+        <span href="#" class="logo">PhySimX</span>
+        <ul>
+            <li><a class="deep-purple darken-1 white-text hoverable" href="#"><i class="material-icons left white-text">3d_rotation</i>Physics Home</a></li>
+            <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">toys</i>Pendulum</a></li>
+            <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">perm_contact_calendar</i>Contact</a></li>
+            <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">format_italic</i>About</a></li>
+            <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">message</i>Blog</a></li>
+            <li><a class="deep-purple-text hoverable" href="#"><i class="material-icons left deep-purple-text">map</i>Maps</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col s10 offset-s2 m10 offset-m2 l10 offset-l2 xl10 offset-xl2">
+            <div class="sheet white">
             </div>
         </div>
     </div>
 
-    <div class="main_body">
-
-        <div class="sidebar_menu">
-            <div class="inner__sidebar_menu">
-
-                <ul>
-                    <li class="hoverable">
-                        <a href="#"  class="active">
-		              <span class="icon">
-		              	<i class="fas fa-atom"></i></span>
-                            <span class="list ">Physics Home</span>
-                        </a>
-                    </li>
-                    <li class="hoverable">
-                        <a href="#">
-                            <span class="icon"><i class="fas fa-balance-scale"></i></span>
-                            <span class="list">Pendulum</span>
-                        </a>
-                    </li>
-                    <li class="hoverable">
-                        <a href="#">
-                            <span class="icon"><i class="fas fa-address-book"></i></span>
-                            <span class="list">Contact</span>
-                        </a>
-                    </li>
-                    <li class="hoverable">
-                        <a href="#">
-                            <span class="icon"><i class="fas fa-address-card"></i></span>
-                            <span class="list">About</span>
-                        </a>
-                    </li>
-                    <li class="hoverable">
-                        <a href="#">
-                            <span class="icon"><i class="fab fa-blogger"></i></span>
-                            <span class="list">Blogs</span>
-                        </a>
-                    </li>
-                    <li class="hoverable">
-                        <a href="#">
-                            <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
-                            <span class="list">Maps</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="hamburger" onclick="myFunction()">
-                    <div class="inner_hamburger">
-			            <span class="arrow">
-			                <i class="fas fa-long-arrow-alt-left"></i>
-			                <i class="fas fa-long-arrow-alt-right"></i>
-			            </span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="item_wrap">
-                <div class="item" id="demo">
-                  
-                </div>
-            </div>
-        </div>
-    </div>
+</main>
 </div>
+
 <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/materialize.min.js"></script>
 <script src="scripts/home.js"></script>
+
 </body>
 </html>
