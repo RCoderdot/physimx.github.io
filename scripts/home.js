@@ -1,5 +1,3 @@
-$(document).ready(function(){
-    $(".hamburger").click(function(){
-        $(".wrapper").toggleClass("active")
-    })
-});
+var s= document.getElementById("slide-out")
+s.open();
+s.close();
