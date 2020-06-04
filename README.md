@@ -8,12 +8,12 @@ This is the code for our website and we are still currently developing the websi
 ## URL
 [physimx.github.io](https://physimx.github.io)
 
-## Author: 
+## Author
 [@mgher](https://github.com/mgher)
 
-## Developers:
+## Developers
 [@JoseDeFreitas](https://github.com/JoseDeFreitas)
 [@SentientVirtualFire](https://github.com/SentientVirtualFire)
 
-## Contributors:
+## Contributors
 [@RCoderdot](https://github.com/RCoderdot)
