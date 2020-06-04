@@ -1,14 +1,19 @@
-# physimx.github.io
+# PhySimX
 
-PhySimX:
-A website That has Visualisations and Simulations from Maths and Physics. We are still currently developing the website. We are using Discord to comunicate with each other. The link is here:  discord.gg/PQPUQXD
+Your place for visualizations and simulations in Math and Physics for greater understanding.
 
-# Developers:
-@SpaceFire
+## Intro
+This is the code for our website and we are still currently developing the website. We are using Discord to comunicate with each other and if you want to be a part of the team please join. The link is here:  discord.gg/PQPUQXD
 
-# Contributors:
-@RCoderdot
+## URL
+[physimx.github.io](https://physimx.github.io)
 
+## Author 
+[@mgher](https://github.com/mgher)
 
-By:
-@RCoderdot
+## Developers
+[@JoseDeFreitas](https://github.com/JoseDeFreitas)
+[@SentientVirtualFire](https://github.com/SentientVirtualFire)
+
+## Contributors:
+[@RCoderdot](https://github.com/RCoderdot)
